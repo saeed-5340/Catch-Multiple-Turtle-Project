@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg = "catch_multiple_turtle" exec = "control_robot"/>
+
+    <node pkg = "turtlesim" exec = "turtlesim_node"/>
+</launch>
